@@ -85,7 +85,14 @@ button[type=submit]:hover {
 }
 
 .active {
+    width: 60px;
+    height: 60px;
     background-color: hsl(0, 100%, 100%);
+    color: hsl(217, 12%, 63%);
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
 }
 
 #thankYou {

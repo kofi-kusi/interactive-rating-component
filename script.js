@@ -9,8 +9,11 @@ let selectedNumber = 0
 ratingBtns.forEach(btn => {
     btn.addEventListener("click", (e) => {
         e.preventDefault()
-        ratingBtns.forEach(b => b.classList.remove("active"))
-        btn.classList.add('active')
+        ratingBtns.forEach(b => {
+            b.classList.remove("active")
+            b.classList.add("rating-button-item")
+        })
+        btn.className = 'active'
         selectedNumber = btn.innerHTML
 
         rate.innerHTML = selectedNumber
