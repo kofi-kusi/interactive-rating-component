@@ -75,6 +75,8 @@ button[type=submit] {
     font-weight: bold;
     letter-spacing: 5px;
     font-size: 17px;
+    color: hsl(216, 12%, 8%);
+    border: none;
 }
 
 button[type=submit]:hover {
